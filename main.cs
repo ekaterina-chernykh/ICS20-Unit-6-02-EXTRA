@@ -25,6 +25,7 @@ class Program
             counter = Convert.ToInt16(someText);
             counter++;
             await File.WriteAllTextAsync("LocalStorage.txt", counter.ToString());
+            Console.WriteLine(" ");
             Console.WriteLine(counter.ToString());
         }
 
